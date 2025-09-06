@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: auto; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+main{
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main .card{
+    width: 100%;
+    /* padding: 30px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+.left img{
+    width: 100%;
+    border-radius: 6px 0 0 6px ;
+    height: 100%;
+    object-fit: cover;
+    /* max-width: 500px; */
+    display: block;
+    align-items: stretch;
+}
+.right{
+    width: 100%;
+    /* max-width: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+}
+.left, .right{
+    width: 50%;
+   /* height: 50%; */
+}
+.right h4{
+    font-size: small;
+    font-size: 1rem;
+    color: hsl(228, 12%, 48%);
+}
+.right h1{
+    font-size: 2rem;
+    font-weight: 900;
+    color: hsl(212, 21%, 14%);
+}
+.right p{
+    font-size: small;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+
+}
+.green{
+    font-size: 2rem;
+    color:hsl(158, 36%, 37%);
+    font-weight: 900;
+}
+.line{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-size: small;
+}
+.btn{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-size:small;
+    border: none;
+    padding: 13px;
+    border-radius: 7px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
